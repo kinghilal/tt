@@ -149,7 +149,7 @@ client.on("message", async message => {
             .setAuthor(message.author.username, message.author.displayAvatarURL)
             .setThumbnail(message.author.avatarURL)
             .setTitle("**Click Here To Invite The Bot To Your Server :sparkling_heart:**")
-            .setURL(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`);
+            .setURL(`https://discordapp.com/oauth2/authorize?client_id=540797541990531084&permissions=2146958847&scope=botbot&permissions=8`);
             message.channel.sendEmbed(invite);
     }
 });
